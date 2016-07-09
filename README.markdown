@@ -1,8 +1,8 @@
 ###This specially Fork was put to use for the API conversion rate, and renamed so as not to interfere
 
-[![Coverage Status](https://coveralls.io/repos/pronix/spree-api-exchange/badge.png)](https://coveralls.io/r/pronix/spree-api-exchange)
+[![Coverage Status](https://coveralls.io/repos/beard-spree/spree-api-exchange/badge.png)](https://coveralls.io/r/pronix/spree-api-exchange)
 
-[![Build Status](https://travis-ci.org/pronix/spree-api-exchange.png)](https://travis-ci.org/pronix/spree-api-exchange)
+[![Build Status](https://travis-ci.org/beard-spree/spree-api-exchange.png)](https://travis-ci.org/pronix/spree-api-exchange)
 
 # Spree API-Exchange
 
@@ -12,7 +12,7 @@ Installation
 ---------
 Add to Gemfile
 
-    gem "spree_api_exchange", :git => "git://github.com/pronix/spree-api-exchange.git"
+    gem "spree_api_exchange", :git => "git://github.com/beard-spree/spree-api-exchange.git"
 
 Run
 ---
