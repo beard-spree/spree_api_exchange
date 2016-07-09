@@ -23,6 +23,7 @@ namespace :spree_api_exchange do
   namespace :rates do
     desc 'Курс Сбербанка РФ http://www.cbr.ru'
     task :cbr => :environment do
+      Spree::CurrencyConverter.delete_all
       basic = Spree::Currency.find_by_basic(1)
       unless basic.present?
         basic  = Spree::Currency.get('643', { num_code: '643', char_code: 'RUB', name: 'Российский рубль' })
@@ -61,6 +62,7 @@ namespace :spree_api_exchange do
     end
 
     desc 'rates from Yahoo USD->EUR,RUB'
+    Spree::CurrencyConverter.delete_all
     task :yahoo =>:environment do
       url = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.xchange%20where%20pair%20in%20%28%22USDEUR%22,%20%22USDRUB%22%29&env=store://datatables.org/alltableswithkeys'
       data = Nokogiri::XML.parse(open(url))
@@ -75,6 +77,7 @@ namespace :spree_api_exchange do
     end
 
     desc 'Rates from European Central Bank'
+    Spree::CurrencyConverter.delete_all
     task :ecb, [:load_currencies] => :environment do |t, args|
       if args.load_currencies
         Rake::Task['spree_api_exchange:currency:iso4217'].invoke
