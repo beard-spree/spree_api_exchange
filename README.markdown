@@ -1,3 +1,5 @@
+###This specially Fork was put to use for the API conversion rate, and renamed so as not to interfere
+
 [![Coverage Status](https://coveralls.io/repos/pronix/spree-api-exchange/badge.png)](https://coveralls.io/r/pronix/spree-api-exchange)
 
 [![Build Status](https://travis-ci.org/pronix/spree-api-exchange.png)](https://travis-ci.org/pronix/spree-api-exchange)
