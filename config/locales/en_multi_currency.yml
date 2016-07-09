@@ -1,0 +1,28 @@
+---
+en:
+  back_to_currencies: Back to Currencies
+  back_to_currency_converters: Back to Currency Converters
+  currency_changed: Currency changed
+  currency_not_found: Currency not found
+  currency_settings: Currency Settings
+  currency_converters_settings: Currency Converters
+  currency_description: Reference Currency
+  currency_converters_description: Currency Exchange Rates
+  add_currency_converter: Add currency exchange rate
+  currency_converter: Currency Converter
+  currency_converter_date_req: Date
+  currency_converter_currency: Currency
+  currency_converter_nominal: Nominal
+  currency_converter_value: Value
+  new_currency_converter: New Converter
+  editing_currency_converter: Edit Converter
+  add_currency: Add Currency
+  list_currency: List of Currencies
+  currency_name: Currency
+  currency_code: Code
+  currency_num_code: ISO number code
+  currency_char_code: ISO char code
+  currency_locale: Locale
+  currency_basic: Basic currency
+  editing_currency: Edit Currency
+  new_currency: Add Currency
