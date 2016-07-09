@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/pronix/spree-api-exchange.png)](https://travis-ci.org/pronix/spree-api-exchange)
 
-# Spree Multi-Currency
+# Spree API-Exchange
 
 Support different currency and recalculate price from one to another
 
