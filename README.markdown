@@ -1,5 +1,8 @@
 ###This specially Fork was put to use for the API conversion rate, and renamed so as not to interfere
 
+source: https://github.com/pronix/spree-multi-currency
+
+
 [![Coverage Status](https://coveralls.io/repos/beard-spree/spree-api-exchange/badge.png)](https://coveralls.io/r/pronix/spree-api-exchange)
 
 [![Build Status](https://travis-ci.org/beard-spree/spree-api-exchange.png)](https://travis-ci.org/pronix/spree-api-exchange)
