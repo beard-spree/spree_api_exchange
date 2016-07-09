@@ -5,7 +5,7 @@ require 'nokogiri'
 # add custom rake tasks here
 namespace :spree_api_exchange do
   eur_hash = { num_code: '978', char_code: 'EUR', name: 'Euro' }
-
+  namespace :rates do
   desc 'Rates from European Central Bank'
     task :ecb, [:load_currencies] => :environment do |t, args|
       if args.load_currencies
