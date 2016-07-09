@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
 grep 'spree_api_exchange' -P -R -I -l  * | xargs sed -i 's/spree_api_exchange/spree_api_exchange/g'
 
-  # s.rubyforge_project = "spree-multi-currency"
+  # s.rubyforge_project = "spree-api-exchange"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

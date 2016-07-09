@@ -1,6 +1,6 @@
-[![Coverage Status](https://coveralls.io/repos/pronix/spree-multi-currency/badge.png)](https://coveralls.io/r/pronix/spree-multi-currency)
+[![Coverage Status](https://coveralls.io/repos/pronix/spree-api-exchange/badge.png)](https://coveralls.io/r/pronix/spree-api-exchange)
 
-[![Build Status](https://travis-ci.org/pronix/spree-multi-currency.png)](https://travis-ci.org/pronix/spree-multi-currency)
+[![Build Status](https://travis-ci.org/pronix/spree-api-exchange.png)](https://travis-ci.org/pronix/spree-api-exchange)
 
 # Spree Multi-Currency
 
@@ -10,7 +10,7 @@ Installation
 ---------
 Add to Gemfile
 
-    gem "spree_api_exchange", :git => "git://github.com/pronix/spree-multi-currency.git"
+    gem "spree_api_exchange", :git => "git://github.com/pronix/spree-api-exchange.git"
 
 Run
 ---
@@ -119,7 +119,7 @@ Support different currency and recalculate price from one to another
 Installation
 ---------
 Add to Gemfile
-    gem "spree_api_exchange", :git => "git://github.com/pronix/spree-multi-currency.git"
+    gem "spree_api_exchange", :git => "git://github.com/pronix/spree-api-exchange.git"
 
 Run
 ---

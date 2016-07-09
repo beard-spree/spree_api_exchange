@@ -20,7 +20,7 @@ end
 desc "Release to gemcutter"
 task :release do
   version = File.read(File.expand_path("../../SPREE_VERSION", __FILE__)).strip
-  cmd = "cd pkg && gem push spree-multi-currency_-#{version}.gem"; puts cmd; system cmd
+  cmd = "cd pkg && gem push spree-api-exchange_-#{version}.gem"; puts cmd; system cmd
 end
 
 desc "Generates a dummy app for testing"
