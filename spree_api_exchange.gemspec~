@@ -4,7 +4,7 @@ $:.push File.expand_path("../lib", __FILE__)
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_api_exchange'
-  s.version     = '3.0.0'
+  s.version     = '3.0.6'
   s.summary     = 'Add gem summary here'
   s.required_ruby_version = '>= 1.9.3'
   s.authors     = ["Pronix LLC"]
@@ -14,8 +14,6 @@ Gem::Specification.new do |s|
   s.description = %q{spree_api_exchange}
   s.license     = 'MIT'
 
-
-grep 'spree_api_exchange' -P -R -I -l  * | xargs sed -i 's/spree_api_exchange/spree_api_exchange/g'
 
   # s.rubyforge_project = "spree-api-exchange"
 
