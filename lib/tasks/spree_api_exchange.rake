@@ -97,10 +97,10 @@ namespace :spree_api_exchange do
         nominal, value = exchange_rate.attribute('rate').value.to_f, 1
         
         
-        if basic.char_code == char_code
+        #if basic.char_code == char_code
 
-          basic_value = nominal
-        end
+        #  basic_value = nominal
+        #end
         
         currencies << {char_code: char_code, value: value,nominal: nominal}
          
@@ -108,9 +108,9 @@ namespace :spree_api_exchange do
       currencies << eur_hash.merge({value: 1, nominal: 1} ) # basic may not be EUR
 
       currencies.each do |c|
-        if c[:char_code] ==  basic.char_code    # need not insert basic
-          next
-        end
+        #if c[:char_code] ==  basic.char_code    # need not insert basic
+        #  next
+        #end
         
         currency = Spree::Currency.find_by_char_code(c[:char_code])
         currency && Spree::CurrencyConverter.add(currency, date, c[:value], c[:nominal]/basic_value)
