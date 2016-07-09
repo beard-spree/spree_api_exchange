@@ -22,8 +22,8 @@ namespace :spree_api_exchange do
 
   namespace :rates do
     desc 'Rates from European Central Bank'
-    Spree::CurrencyConverter.delete_all
     task :ecb, [:load_currencies] => :environment do |t, args|
+      Spree::CurrencyConverter.delete_all
       if args.load_currencies
         Rake::Task['spree_api_exchange:currency:iso4217'].invoke
       end
